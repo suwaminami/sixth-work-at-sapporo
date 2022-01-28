@@ -1,0 +1,187 @@
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #fff5e1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  h1 {
+    position: relative;/*相対位置*/
+    /* padding-left: 1.2em;アイコン分のスペース */
+    line-height: 1.4;/*行高*/
+    color: #7b6459;/*文字色*/
+  }
+  
+
+/* ↓id="nav"の中のulに対してCSSを適用*/
+#nav ul {
+    list-style-type: none; /*箇条書きのポッチを消す*/
+    text-align:center /*左右中央寄せは親要素に対して指定*/
+  }
+  
+  /* ↓id="nav"の中のulの中のliに対してCSSを適用*/
+  #nav ul li { 
+    display: inline-block;/*inline-blockにします*/
+    width: 150px;/*幅も指定できる*/
+    padding: 10px 0;/*余白も指定できる*/
+    margin: 10px 0;/*余白も指定できる*/
+    vertical-align: middle;/*縦の表示位置も指定できる*/
+    background: #f89174;/*背景を水色に*/
+    font-weight: bold;/*文字を太字に*/
+    color:white; /*文字色を白に*/
+  }
+
+  .map{
+    display: flex;
+  }
+
+  .code{
+      margin: 0 10 0 0;
+  width: 100%;                /* 横幅を200pxに指定 */
+  height: 450px;               /* 横幅を200pxに指定 */
+  border: 1px solid rgb(250, 234, 206);      /* わかりやすくボーダーを引く */
+  overflow-y: scroll;          /* 縦方向にスクロール可能にする */
+  }
+
+  .google{
+    width: 30%;   
+    text-align: right; 
+  }
+
+  .sample {
+    padding: 100px;
+    margin: 2em;
+    /* max-width: 400px; */
+    /*無くてもOK*/
+    background: #FFF;
+    border-radius: 3px;
+    box-shadow: 0 0px 20px rgba(243, 160, 52, 0.2);
+  }
+
+
+  .box29 {
+    /* margin: 2em 0; */
+    background: #dcefff;
+    margin: 2em;
+    height: 5cm;
+
+}
+.box29 .box-title {
+    font-size: 1.2em;
+    background: #5fb3f5;
+    /* padding: 4px; */
+    
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.box29 p {
+    padding: 15px 20px;
+    margin: 0;
+}
+
+.ribbon11-wrapper {  
+    display: block;
+    position: relative;
+    margin: 30px;
+    padding: 10px 0;
+    width: 500px;
+    background: #fcead4;
+    height: fit-content;
+    
+  }
+  .ribbon11 {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 0 0 -20px;
+    width: calc(100% + 20px);
+    font-size: 22px;
+    color: white;
+    background: #ffc670;
+  }
+  .ribbon11:before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+
+    border: none;
+    border-bottom: solid 15px transparent;
+    border-right: solid 20px #e0cb6e;
+  }
+
+
+
+  .ul2{
+    border: solid 2px #ffb03f;
+    padding: 0 0.5em;
+    position: relative;
+    margin: 15px;
+  }
+  
+  .li2{
+    line-height: 1.5;
+    padding: 0.5em 0 0.5em 1.4em;
+    border-bottom: dashed 1px silver;
+    list-style-type: none!important;
+  }
+  
+  .ul2:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f138";/*アイコン種類*/
+    position: absolute;
+    left : 0.5em; /*左端からのアイコンまで*/
+    color: #ffb03f; /*アイコン色*/
+  }
+  
+  .li2:last-of-type {
+    border-bottom: none;
+  }
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
